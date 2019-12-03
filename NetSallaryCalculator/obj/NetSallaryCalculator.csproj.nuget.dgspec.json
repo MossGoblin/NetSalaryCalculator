@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\NetSallaryCalculator\\NetSallaryCalculator\\NetSallaryCalculator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\NetSallaryCalculator\\NetSallaryCalculator\\NetSallaryCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\NetSallaryCalculator\\NetSallaryCalculator\\NetSallaryCalculator.csproj",
+        "projectName": "NetSallaryCalculator",
+        "projectPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\NetSallaryCalculator\\NetSallaryCalculator\\NetSallaryCalculator.csproj",
+        "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\NetSallaryCalculator\\NetSallaryCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp1.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp1.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp1.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[1.0.5, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
