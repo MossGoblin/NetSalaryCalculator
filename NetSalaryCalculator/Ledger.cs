@@ -96,5 +96,10 @@ namespace NetSalaryCalculator
                 record.UpdateNetAmount(taxMachine.ApplyTaxation(record.Amount));
             }
         }
+
+        public int RecordsCount()
+        {
+            return records.Count;
+        }
     }
 }

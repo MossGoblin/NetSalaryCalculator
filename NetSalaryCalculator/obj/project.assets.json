@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\NetSallaryCalculator\\NetSallaryCalculator\\NetSalaryCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\[ gitted ]\\NSC\\NetSalaryCalculator\\NetSalaryCalculator\\NetSalaryCalculator.csproj",
       "projectName": "NetSalaryCalculator",
-      "projectPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\NetSallaryCalculator\\NetSallaryCalculator\\NetSalaryCalculator.csproj",
+      "projectPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\[ gitted ]\\NSC\\NetSalaryCalculator\\NetSalaryCalculator\\NetSalaryCalculator.csproj",
       "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\NetSallaryCalculator\\NetSallaryCalculator\\obj\\",
+      "outputPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\JobAppTask\\DevOcean\\[ gitted ]\\NSC\\NetSalaryCalculator\\NetSalaryCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

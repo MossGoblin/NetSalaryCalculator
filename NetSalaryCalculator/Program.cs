@@ -9,6 +9,7 @@ namespace NetSalaryCalculator
         {
             Taxation taxation = new Taxation();
             Ledger ledger = new Ledger(taxation);
+            SeedSampleValues(ledger); // comment this method call out to skip initial seeding with sample valued
             ProcessInput(ledger, taxation);
         }
 
@@ -24,8 +25,15 @@ namespace NetSalaryCalculator
             {
                 Terminal.Output("== Imaginaria Income Calculator ==");
                 Console.WriteLine();
+
+                if (ledger.RecordsCount() > 0)
+                {
+                    Terminal.Output($"( The ledger contains {ledger.RecordsCount()} records )");
+                }
+                Console.WriteLine();
+
                 Terminal.Output("> Please choose an action:");
-                Terminal.Output(" (1 or i) New Income Record");
+                Terminal.Output(" (1 or i) New income record");
                 Terminal.Output(" (2 or f) Find a particular income record");
                 Terminal.Output(" (3 or r) Review saved income records");
                 Terminal.Output(" (4 or t) Review and update taxation terms");
@@ -68,6 +76,7 @@ namespace NetSalaryCalculator
             Terminal.Output($". Social contributions percentage: {taxation.SocialContributionsPercentage}%");
             Terminal.Output($". Minimum taxable amount: {taxation.MinimumTaxableAmount} IDR");
             Terminal.Output($". Maximum amount subject to social contributions: {taxation.MaximumAmountSubjectYoSC} IDR");
+            Console.WriteLine();
 
             bool update = Terminal.ConfirmationInput("? Would you like to update any of the values? (Y/y for 'yes'): ", 'y');
             Console.WriteLine();
@@ -118,7 +127,7 @@ namespace NetSalaryCalculator
             Console.Clear();
         }
 
-        private static void AddNewRecord(Ledger ledger) // TODO : send validation for existing name to the ledger
+        private static void AddNewRecord(Ledger ledger) // TODO : this validation could be performed by the ledger..
         {
             string name = Terminal.StringInput("? Enter the name of the record holder: ", false);
             bool existingname = false;
@@ -218,10 +227,19 @@ namespace NetSalaryCalculator
             string errorMessage = "Unrecognized input - please press 'N/n' for ordering by name or 'G/g' for ordering by gross value ";
             bool sortByName = Terminal.BinaryChoiseInput(prompt, errorMessage, 'n', 'g');
             Console.WriteLine();
+            Console.WriteLine();
             Terminal.Output(ledger.ExtractRecords(sortByName));
 
             Terminal.AnyKey(true);
             Console.Clear();
+        }
+
+        private static void SeedSampleValues(Ledger ledger)
+        {
+            ledger.AddNewRecord("George", 980M);
+            ledger.AddNewRecord("Irina", 3400M);
+            ledger.AddNewRecord("Alex", 2800);
+            ledger.AddNewRecord("William", 1200);
         }
     }
 }
