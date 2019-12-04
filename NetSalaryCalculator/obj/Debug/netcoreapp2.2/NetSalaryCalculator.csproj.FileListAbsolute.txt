@@ -1,0 +1,10 @@
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\bin\Debug\netcoreapp2.2\NetSalaryCalculator.deps.json
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\bin\Debug\netcoreapp2.2\NetSalaryCalculator.runtimeconfig.json
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\bin\Debug\netcoreapp2.2\NetSalaryCalculator.runtimeconfig.dev.json
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\bin\Debug\netcoreapp2.2\NetSalaryCalculator.dll
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\bin\Debug\netcoreapp2.2\NetSalaryCalculator.pdb
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\obj\Debug\netcoreapp2.2\NetSalaryCalculator.csprojAssemblyReference.cache
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\obj\Debug\netcoreapp2.2\NetSalaryCalculator.AssemblyInfoInputs.cache
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\obj\Debug\netcoreapp2.2\NetSalaryCalculator.AssemblyInfo.cs
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\obj\Debug\netcoreapp2.2\NetSalaryCalculator.dll
+C:\Users\hugol\Google Drive\[ MULE ]\[ CODEE ]\JobAppTask\DevOcean\NetSallaryCalculator\NetSallaryCalculator\obj\Debug\netcoreapp2.2\NetSalaryCalculator.pdb
